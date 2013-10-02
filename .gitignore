@@ -1,7 +1,9 @@
-*.py[co]
+*.py[cod]
 
-.~lock.*
 Paste*
+.~lock.*
+# C extensions
+*.so
 
 # Packages
 *.egg
@@ -26,8 +28,11 @@ pip-log.txt
 #Translations
 *.mo
 
-#Mr Developer
-.mr.developer.cfg
-
 *.[a-z]*~
 
+nosetests.xml
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
